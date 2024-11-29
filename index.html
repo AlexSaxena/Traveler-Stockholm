@@ -5,10 +5,110 @@
     <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/src/main.js"></script>
-    <title>Traveler Stockholm</title>
+    <title>Traveler - Discover Stockholm</title>
   </head>
   <body>
-    <div id="app"></div>
-    <h1 class="text-blue-800">Hello</h1>
+    <!-- Navigation -->
+    <header>
+      <nav>
+        <h1>Traveler</h1>
+        <ul>
+          <li><a href="#discover-section">Discover</a></li>
+          <li><a href="#must-see-section">Must See</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Banner -->
+      <section class="hero-section">
+        <h2>Welcome to Stockholm</h2>
+        <p>Discover the Capital of Scandinavia</p>
+        <button>Plan Your Visit</button>
+      </section>
+
+      <!-- Discover Stockholm Section -->
+      <section id="discover-section">
+        <h3>Discover Stockholm</h3>
+        <div>
+          <!-- Text Card 1 -->
+          <article>
+            <h4>Stockholm's History</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              rem asperiores tempore perspiciatis possimus voluptate vel eos
+              maiores suscipit deserunt.
+            </p>
+          </article>
+          <!-- Text Card 2 -->
+          <article>
+            <h4>Modern Stockholm</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              dolorem ipsa repudiandae voluptates placeat quibusdam, est impedit
+              iure atque dicta!
+            </p>
+          </article>
+          <!-- Image Card 1 -->
+          <img src="/path-to-image1.jpg" alt="Image: Historical Stockholm" />
+          <!-- Image Card 2 -->
+          <img src="/path-to-image2.jpg" alt="Image: Modern Stockholm" />
+        </div>
+      </section>
+
+      <!-- Must See in Stockholm Section -->
+      <section id="must-see-section">
+        <h3>Must See in Stockholm</h3>
+        <div>
+          <!-- Text Card 1 -->
+          <article>
+            <h4>Gamla Stan</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+              rem, distinctio quo explicabo consectetur qui exercitationem
+              sapiente accusamus quam nam!
+            </p>
+          </article>
+          <!-- Text Card 2 -->
+          <article>
+            <h4>Vasa Museum</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+              optio dolores molestiae sunt adipisci, quam voluptas eligendi ut
+              deleniti laudantium.
+            </p>
+          </article>
+          <!-- Map -->
+          <!-- Need to check, if google maps api still free -->
+          <iframe
+            src="https://www.google.com/maps"
+            title="Map of Stockholm"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <section>
+        <p>Follow us on:</p>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter or X ?</a></li>
+        </ul>
+      </section>
+      <section>
+        <p>
+          Contact us at
+          <a href="mailto:TotallyValid@mail.com">info@traveler.com</a>
+        </p>
+      </section>
+      <section>
+        <p>&copy; 2024 Traveler. No Rights Reserved. You like it You take it</p>
+      </section>
+    </footer>
   </body>
 </html>
