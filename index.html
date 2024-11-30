@@ -100,35 +100,55 @@
       </section>
 
       <!-- Discover Stockholm Section -->
-      <section
-        id="discover-section"
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto flex-col"
-      >
-        <h3>Discover Stockholm</h3>
-        <div class="grid md:grid-cols-4 gap-4">
+      <section id="discover-section" class="max-w-screen-xl mx-auto py-12 px-6">
+        <!-- Section Heading -->
+        <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">
+          Discover Stockholm
+        </h3>
+        <!-- Grid Layout -->
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <!-- Text Card 1 -->
-          <article>
-            <h4>Stockholm's History</h4>
-            <p>
+          <article
+            class="flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow"
+          >
+            <h4 class="text-xl font-semibold mb-4 text-gray-900">
+              Stockholm's History
+            </h4>
+            <p class="text-gray-700">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
               rem asperiores tempore perspiciatis possimus voluptate vel eos
               maiores suscipit deserunt.
             </p>
           </article>
           <!-- Image Card 1 -->
-          <img src="/path-to-image1.jpg" alt="Image: Historical Stockholm" />
+          <div class="overflow-hidden rounded-lg">
+            <img
+              src="/path-to-image1.jpg"
+              alt="Image: Historical Stockholm"
+              class="w-full h-full object-cover"
+            />
+          </div>
           <!-- Text Card 2 -->
-          <article>
-            <h4>Modern Stockholm</h4>
-            <p>
+          <article
+            class="flex flex-col justify-between p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow"
+          >
+            <h4 class="text-xl font-semibold mb-4 text-gray-900">
+              Modern Stockholm
+            </h4>
+            <p class="text-gray-700">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               dolorem ipsa repudiandae voluptates placeat quibusdam, est impedit
               iure atque dicta!
             </p>
           </article>
-
           <!-- Image Card 2 -->
-          <img src="/path-to-image2.jpg" alt="Image: Modern Stockholm" />
+          <div class="overflow-hidden rounded-lg">
+            <img
+              src="/path-to-image2.jpg"
+              alt="Image: Modern Stockholm"
+              class="w-full h-full object-cover"
+            />
+          </div>
         </div>
       </section>
 
