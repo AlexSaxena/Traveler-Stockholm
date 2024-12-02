@@ -2,7 +2,7 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "repo-name",
+  base: "Traveler-Stockholm",
   build: {
     rollupOptions: {
       input: {
